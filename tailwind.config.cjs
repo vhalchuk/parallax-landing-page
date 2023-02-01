@@ -3,6 +3,9 @@ module.exports = {
     content: ['./index.html'],
     theme: {
         extend: {
+            screens: {
+                xs: '425px',
+            },
             colors: {
                 bkg: '#171819',
                 muted: '#C9CBCF',
