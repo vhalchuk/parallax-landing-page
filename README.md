@@ -2,7 +2,7 @@
 
 This repository contains a pet project for a parallax landing page built with Vite as the bundler, TailwindCSS for styling, and postCSS for transforming CSS.
 
-You can see a demo of the game at https://vhalchuk.github.io/parallax-landing-page/.
+You can see a demo at https://vhalchuk.github.io/parallax-landing-page/.
 
 ## Getting Started
 
@@ -26,6 +26,9 @@ npm install
 ```shell
 npm run dev
 ```
+
+## Deploy
+To deploy the project using GitHub pages follow [this guide](https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane).
 
 ## License
 
