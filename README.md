@@ -2,11 +2,19 @@
 
 This repository contains a pet project for a parallax landing page built with Vite as the bundler, TailwindCSS for styling, and postCSS for transforming CSS.
 
-You can see a demo at https://vhalchuk.github.io/parallax-landing-page/.
+This pet project serves as a learning platform for various best practices in web development, including image speed optimization, accessibility, search engine optimization, and CSS-only parallax effect.
+
+You can see the demo at https://vhalchuk.github.io/parallax-landing-page/.
 
 ## Getting Started
 
-To get started with this project, follow these steps:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+You will need to have Node.js and npm installed on your machine in order to run this project.
+
+### Installing
 
 1. Clone the repository to your local machine:
 
@@ -27,7 +35,8 @@ npm install
 npm run dev
 ```
 
-## Deploy
+### Deploy
+
 To deploy the project using GitHub pages follow [this guide](https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane).
 
 ## License
