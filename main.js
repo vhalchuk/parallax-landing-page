@@ -56,6 +56,7 @@ function initSlider() {
 }
 
 function initEmailForm() {
+    const formLink = document.querySelector('[data-formLink]');
     const contactForm = document.querySelector('#contact-form');
     const contactBtn = document.querySelector('#contact-btn');
     const contactInput = document.querySelector('#email');
@@ -80,6 +81,10 @@ function initEmailForm() {
             </span>`,
     };
 
+    formLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        contactForm.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
     contactForm.addEventListener('submit', async (e) => {
         e.preventDefault();
         addDisabledAttribute([contactForm, contactBtn]);
