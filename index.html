@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/parallax-landing-page/logomark.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="color-scheme" content="dark" />
+        <meta
+            name="description"
+            content="Parallax landing page (learning project)"
+        />
+        <title>Traverse landing page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+      <script type="module" crossorigin src="/parallax-landing-page/assets/index-1353e8b5.js"></script>
+      <link rel="stylesheet" href="/parallax-landing-page/assets/index-a230fa9b.css">
+    </head>
+    <body
+        class="overflow-hidden bg-bkg text-base text-white selection:bg-accent selection:text-bkg"
+    >
+        <div
+            class="perspective relative h-screen overflow-y-auto overflow-x-hidden scroll-smooth pb-12 sm:pb-0"
+        >
+            <nav
+                class="absolute top-0 z-50 grid w-full place-items-center drop-shadow-text-sm"
+                aria-label="Primary Navigation"
+            >
+                <a
+                    href="/"
+                    aria-label="Go Home"
+                    class="m-4 rounded-full p-1 ring-bkg ring-accent transition-shadow focus:outline-none focus-visible:ring-4"
+                >
+                    <svg
+                        width="280"
+                        viewBox="0 0 357 86"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-32 sm:w-48 lg:w-56"
+                    >
+                        <path
+                            d="M18.555 21.228c-3.033.534-4.35 4.151-2.37 6.51l21.78 25.957c1.98 2.359 5.77 1.69 6.823-1.203l11.59-31.84c1.053-2.894-1.421-5.843-4.454-5.308l-33.37 5.884ZM84.795 63.81c3.032-.534 4.349-4.151 2.37-6.51l-21.78-25.957c-1.98-2.359-5.77-1.69-6.824 1.203L46.972 64.387c-1.053 2.894 1.421 5.842 4.453 5.308l33.37-5.884ZM127.81 64.52V22.76h9.42v41.76h-9.42Zm-13.26-34.14v-8.22h35.94v8.22h-35.94Zm34.559 34.14V35.36h9.18v29.16h-9.18Zm9.18-16.02-3.84-3c.76-3.4 2.04-6.04 3.84-7.92 1.8-1.88 4.3-2.82 7.5-2.82 1.4 0 2.62.22 3.66.66 1.08.4 2.02 1.04 2.82 1.92l-5.46 6.9c-.4-.44-.9-.78-1.5-1.02s-1.28-.36-2.04-.36c-1.52 0-2.74.48-3.66 1.44-.88.92-1.32 2.32-1.32 4.2Zm27.785 16.62c-2.68 0-5.08-.66-7.2-1.98-2.08-1.32-3.74-3.12-4.98-5.4-1.2-2.28-1.8-4.88-1.8-7.8s.6-5.52 1.8-7.8c1.24-2.28 2.9-4.08 4.98-5.4 2.12-1.32 4.52-1.98 7.2-1.98 1.96 0 3.72.38 5.28 1.14 1.6.76 2.9 1.82 3.9 3.18 1 1.32 1.56 2.84 1.68 4.56v12.6c-.12 1.72-.68 3.26-1.68 4.62-.96 1.32-2.24 2.36-3.84 3.12-1.6.76-3.38 1.14-5.34 1.14Zm1.86-8.28c1.96 0 3.54-.64 4.74-1.92 1.2-1.32 1.8-2.98 1.8-4.98 0-1.36-.28-2.56-.84-3.6a5.51 5.51 0 0 0-2.28-2.4c-.96-.6-2.08-.9-3.36-.9-1.28 0-2.42.3-3.42.9-.96.56-1.74 1.36-2.34 2.4-.56 1.04-.84 2.24-.84 3.6 0 1.32.28 2.5.84 3.54a6.293 6.293 0 0 0 2.34 2.46c1 .6 2.12.9 3.36.9Zm6.18 7.68v-7.86l1.38-7.08-1.38-7.08v-7.14h9v29.16h-9Zm24.644 0-12.36-29.16h9.9l8.4 24.3h-4.32l8.4-24.3h9.72l-12.36 29.1-7.38.06Zm36.626.66c-3.16 0-5.98-.64-8.46-1.92-2.44-1.32-4.36-3.14-5.76-5.46-1.4-2.32-2.1-4.94-2.1-7.86s.68-5.52 2.04-7.8c1.4-2.32 3.28-4.14 5.64-5.46 2.36-1.32 5.02-1.98 7.98-1.98 2.88 0 5.42.62 7.62 1.86 2.2 1.24 3.92 2.96 5.16 5.16 1.28 2.2 1.92 4.72 1.92 7.56 0 .52-.04 1.08-.12 1.68-.04.56-.14 1.22-.3 1.98l-25.14.06v-6.3l21.24-.06-3.96 2.64c-.04-1.68-.3-3.06-.78-4.14-.48-1.12-1.2-1.96-2.16-2.52-.92-.6-2.06-.9-3.42-.9-1.44 0-2.7.34-3.78 1.02-1.04.64-1.86 1.56-2.46 2.76-.56 1.2-.84 2.66-.84 4.38 0 1.72.3 3.2.9 4.44.64 1.2 1.52 2.14 2.64 2.82 1.16.64 2.52.96 4.08.96 1.44 0 2.74-.24 3.9-.72a8.893 8.893 0 0 0 3.06-2.28l5.04 5.04a13.606 13.606 0 0 1-5.22 3.78c-2.04.84-4.28 1.26-6.72 1.26Zm18.471-.66V35.36h9.18v29.16h-9.18Zm9.18-16.02-3.84-3c.76-3.4 2.04-6.04 3.84-7.92 1.8-1.88 4.3-2.82 7.5-2.82 1.4 0 2.62.22 3.66.66 1.08.4 2.02 1.04 2.82 1.92l-5.46 6.9c-.4-.44-.9-.78-1.5-1.02s-1.28-.36-2.04-.36c-1.52 0-2.74.48-3.66 1.44-.88.92-1.32 2.32-1.32 4.2Zm26.401 16.74c-1.72 0-3.42-.22-5.1-.66-1.64-.44-3.18-1.06-4.62-1.86-1.4-.84-2.6-1.8-3.6-2.88l5.22-5.28c.96 1.04 2.1 1.86 3.42 2.46 1.32.56 2.76.84 4.32.84 1.08 0 1.9-.16 2.46-.48.6-.32.9-.76.9-1.32 0-.72-.36-1.26-1.08-1.62-.68-.4-1.56-.74-2.64-1.02-1.08-.32-2.22-.66-3.42-1.02-1.2-.36-2.34-.86-3.42-1.5s-1.96-1.52-2.64-2.64c-.68-1.16-1.02-2.62-1.02-4.38 0-1.88.48-3.5 1.44-4.86.96-1.4 2.32-2.5 4.08-3.3 1.76-.8 3.82-1.2 6.18-1.2 2.48 0 4.76.44 6.84 1.32 2.12.84 3.84 2.1 5.16 3.78l-5.22 5.28c-.92-1.08-1.96-1.84-3.12-2.28-1.12-.44-2.22-.66-3.3-.66-1.04 0-1.82.16-2.34.48-.52.28-.78.7-.78 1.26 0 .6.34 1.08 1.02 1.44.68.36 1.56.68 2.64.96 1.08.28 2.22.62 3.42 1.02 1.2.4 2.34.94 3.42 1.62 1.08.68 1.96 1.6 2.64 2.76.68 1.12 1.02 2.6 1.02 4.44 0 2.84-1.08 5.1-3.24 6.78-2.12 1.68-5 2.52-8.64 2.52Zm31.261-.06c-3.16 0-5.98-.64-8.46-1.92-2.44-1.32-4.36-3.14-5.76-5.46-1.4-2.32-2.1-4.94-2.1-7.86s.68-5.52 2.04-7.8c1.4-2.32 3.28-4.14 5.64-5.46 2.36-1.32 5.02-1.98 7.98-1.98 2.88 0 5.42.62 7.62 1.86 2.2 1.24 3.92 2.96 5.16 5.16 1.28 2.2 1.92 4.72 1.92 7.56 0 .52-.04 1.08-.12 1.68-.04.56-.14 1.22-.3 1.98l-25.14.06v-6.3l21.24-.06-3.96 2.64c-.04-1.68-.3-3.06-.78-4.14-.48-1.12-1.2-1.96-2.16-2.52-.92-.6-2.06-.9-3.42-.9-1.44 0-2.7.34-3.78 1.02-1.04.64-1.86 1.56-2.46 2.76-.56 1.2-.84 2.66-.84 4.38 0 1.72.3 3.2.9 4.44.64 1.2 1.52 2.14 2.64 2.82 1.16.64 2.52.96 4.08.96 1.44 0 2.74-.24 3.9-.72a8.893 8.893 0 0 0 3.06-2.28l5.04 5.04a13.606 13.606 0 0 1-5.22 3.78c-2.04.84-4.28 1.26-6.72 1.26Z"
+                            fill="#fff"
+                        />
+                    </svg>
+                </a>
+            </nav>
+            <header
+                class="preserve-3d relative flex min-h-screen flex-col items-center justify-evenly"
+            >
+                <div
+                    class="distance-1 absolute inset-0 -bottom-32 top-1/3 h-full bg-gradient-to-t from-bkg/80 to-transparent"
+                ></div>
+
+                <picture
+                    class="distance-1 absolute -z-20 h-full w-full object-cover object-center"
+                >
+                    <source
+                        type="image/webp"
+                        srcset="/parallax-landing-page/hero-xs.webp 480w, /parallax-landing-page/hero-sm.webp 650w, /parallax-landing-page/hero-md.webp 800w, /parallax-landing-page/hero-lg.webp 1300w"
+                        sizes="(min-width: 500px) 480w, 650w, 800w, 1300w"
+                    />
+                    <source
+                        srcset="/parallax-landing-page/hero-xs.jpg 480w, /parallax-landing-page/hero-sm.jpg 650w, /parallax-landing-page/hero-md.jpg 800w, /parallax-landing-page/hero-lg.jpg 1300w"
+                        sizes="(min-width: 500px) 480w, 650w, 800w, 1300w"
+                    />
+                    <img
+                        src="/parallax-landing-page/hero.jpg"
+                        alt="Background Hero Image"
+                        aria-hidden="true"
+                        class="h-full w-full object-cover object-center"
+                    />
+                </picture>
+
+                <h1
+                    class="distance-2 py-12 text-center text-5xl font-bold tracking-wide text-white drop-shadow-text-sm lg:drop-shadow-text-lg"
+                >
+                    Unique Trips for <br />Adventurous <br />
+                    Travelers
+                </h1>
+                <a
+                    data-formLink
+                    href="#contact-form"
+                    class="distance-2 flex items-center space-x-2 rounded-full border border-bkg bg-accent py-3 px-8 font-medium text-bkg ring-accent ring-offset-2 ring-offset-bkg drop-shadow-text-lg transition-shadow hover:bg-accent/90 hover:drop-shadow-none focus:outline-none focus-visible:ring-4"
+                >
+                    <span class="uppercase tracking-wide">Book a Trip</span>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="currentColor"
+                        viewBox="0 0 256 256"
+                    >
+                        <rect width="256" height="256" fill="none"></rect>
+                        <polyline
+                            points="96 184 32 200 32 56 96 40"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="24"
+                        ></polyline>
+                        <polygon
+                            points="160 216 96 184 96 40 160 72 160 216"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="24"
+                        ></polygon>
+                        <polyline
+                            points="160 72 224 56 224 200 160 216"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="24"
+                        ></polyline>
+                    </svg>
+                </a>
+            </header>
+            <main
+                class="relative z-10 mt-16 -mb-16 grid gap-16 overflow-hidden pb-16 sm:mt-24 sm:gap-24 lg:mt-40 lg:gap-40"
+            >
+                <section
+                    aria-labelledby="headline"
+                    class="container grid max-w-prose gap-4 text-center fade-up"
+                >
+                    <div>
+                        <small
+                            class="uppercase tracking-widest text-accent drop-shadow-text-sm"
+                            >what dreams are made of</small
+                        >
+                        <h2
+                            id="headline"
+                            class="text-3xl font-bold tracking-wide drop-shadow-text-md"
+                        >
+                            Trips for Explorers
+                        </h2>
+                    </div>
+                    <p class="text-muted drop-shadow-text-sm">
+                        We find once-in-a-lifetime locations and reserve them
+                        for travelers full of adventure. Calling all explorers
+                        and extremists to the trip of their dreams in the most
+                        exotic locations all around the globe.
+                    </p>
+                </section>
+                <section
+                    aria-labelledby="slider"
+                    class="container grid gap-4 text-center fade-up sm:text-left"
+                >
+                    <div class="relative">
+                        <div
+                            class="absolute -left-4 hidden h-full w-8 bg-accent/10 sm:block"
+                        ></div>
+                        <div>
+                            <small
+                                class="uppercase tracking-widest text-accent drop-shadow-text-sm"
+                                >off the beaten path</small
+                            >
+                            <h2
+                                id="slider"
+                                class="text-3xl font-bold tracking-wide drop-shadow-text-md"
+                            >
+                                Places without People
+                            </h2>
+                        </div>
+                        <div
+                            class="flex flex-wrap items-center justify-center space-x-4 space-y-4 sm:flex-nowrap sm:justify-between"
+                        >
+                            <p class="max-w-2xl text-muted drop-shadow-text-sm">
+                                We specialize in finding places no one else
+                                knows about. Here are a few of our favorite
+                                spots for true adventurers.
+                            </p>
+                            <div class="flex space-x-4">
+                                <button
+                                    data-slideBtn
+                                    id="prev"
+                                    aria-label="show previous image"
+                                    class="grid place-items-center rounded-full bg-accent p-2 text-bkg ring-accent ring-offset-2 ring-offset-bkg hover:bg-accent/90 focus:outline-none focus-visible:ring-4 disabled:bg-accent/20 disabled:text-accent"
+                                    disabled
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="36"
+                                        height="36"
+                                        class="pointer-events-none"
+                                        fill="currentColor"
+                                        viewBox="0 0 256 256"
+                                    >
+                                        <rect
+                                            width="256"
+                                            height="256"
+                                            fill="none"
+                                        ></rect>
+                                        <circle
+                                            cx="128"
+                                            cy="128"
+                                            r="96"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="24"
+                                        ></circle>
+                                        <polyline
+                                            points="121.9 161.9 88 128 121.9 94.1"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="24"
+                                        ></polyline>
+                                        <line
+                                            x1="168"
+                                            y1="128"
+                                            x2="88"
+                                            y2="128"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="24"
+                                        ></line>
+                                    </svg>
+                                </button>
+                                <button
+                                    data-slideBtn
+                                    id="next"
+                                    aria-label="show next image"
+                                    class="grid place-items-center rounded-full bg-accent p-2 text-bkg ring-accent ring-offset-2 ring-offset-bkg hover:bg-accent/90 focus:outline-none focus-visible:ring-4 disabled:bg-accent/20 disabled:text-accent"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="36"
+                                        height="36"
+                                        class="pointer-events-none"
+                                        fill="currentColor"
+                                        viewBox="0 0 256 256"
+                                    >
+                                        <rect
+                                            width="256"
+                                            height="256"
+                                            fill="none"
+                                        ></rect>
+                                        <circle
+                                            cx="128"
+                                            cy="128"
+                                            r="96"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="24"
+                                        ></circle>
+                                        <polyline
+                                            points="134.1 161.9 168 128 134.1 94.1"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="24"
+                                        ></polyline>
+                                        <line
+                                            x1="88"
+                                            y1="128"
+                                            x2="168"
+                                            y2="128"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="24"
+                                        ></line>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div
+                    class="container -mt-10 fade-up xs:w-screen sm:-mt-20 lg:-mt-36"
+                >
+                    <div
+                        data-slideContainer
+                        class="flex transition-transform duration-500"
+                    >
+                        <div
+                            data-slide
+                            class="relative w-full flex-shrink-0 flex-grow pr-4 xs:w-auto xs:basis-96"
+                        >
+                            <picture
+                                class="peer h-full object-cover transition-all hover:grayscale-0 [@media(hover:hover)]:grayscale"
+                            >
+                                <source
+                                    srcset="/parallax-landing-page/slider-1.webp"
+                                    type="image/webp"
+                                />
+                                <source
+                                    srcset="/parallax-landing-page/slider-1.jpg"
+                                    type="image/jpeg"
+                                />
+                                <img
+                                    src="/parallax-landing-page/slider-1.jpg"
+                                    alt="Iceland Scene"
+                                    width="388"
+                                    height="465"
+                                />
+                            </picture>
+                            <p
+                                class="pointer-events-none absolute bottom-4 left-4 bg-bkg px-4 py-2 text-lg font-bold tracking-wide transition-opacity peer-hover:opacity-100 [@media(hover:hover)]:opacity-0"
+                            >
+                                Ocean Wonders
+                            </p>
+                        </div>
+                        <div
+                            data-slide
+                            class="relative w-full flex-shrink-0 flex-grow pr-4 xs:w-auto xs:basis-96"
+                        >
+                            <picture
+                                class="peer h-full object-cover transition-all hover:grayscale-0 [@media(hover:hover)]:grayscale"
+                            >
+                                <source
+                                    srcset="/parallax-landing-page/slider-2.webp"
+                                    type="image/webp"
+                                />
+                                <source
+                                    srcset="/parallax-landing-page/slider-8.jpg"
+                                    type="image/jpeg"
+                                />
+                                <img
+                                    src="/parallax-landing-page/slider-2.jpg"
+                                    alt="Iceland Scene"
+                                    height="464"
+                                    width="386"
+                                />
+                            </picture>
+                            <p
+                                class="pointer-events-none absolute bottom-4 left-4 bg-bkg px-4 py-2 text-lg font-bold tracking-wide transition-opacity peer-hover:opacity-100 [@media(hover:hover)]:opacity-0"
+                            >
+                                Waterfall Cave
+                            </p>
+                        </div>
+                        <div
+                            data-slide
+                            class="relative w-full flex-shrink-0 flex-grow pr-4 xs:w-auto xs:basis-96"
+                        >
+                            <picture
+                                class="peer h-full object-cover transition-all hover:grayscale-0 [@media(hover:hover)]:grayscale"
+                            >
+                                <source
+                                    srcset="/parallax-landing-page/slider-3.webp"
+                                    type="image/webp"
+                                />
+                                <source
+                                    srcset="/parallax-landing-page/slider-8.jpg"
+                                    type="image/jpeg"
+                                />
+                                <img
+                                    src="/parallax-landing-page/slider-3.jpg"
+                                    alt="Iceland Scene"
+                                    width="387"
+                                    height="465"
+                                />
+                            </picture>
+                            <p
+                                class="pointer-events-none absolute bottom-4 left-4 bg-bkg px-4 py-2 text-lg font-bold tracking-wide transition-opacity peer-hover:opacity-100 [@media(hover:hover)]:opacity-0"
+                            >
+                                Rainbow Falls
+                            </p>
+                        </div>
+                        <div
+                            data-slide
+                            class="relative w-full flex-shrink-0 flex-grow pr-4 xs:w-auto xs:basis-96"
+                        >
+                            <picture
+                                class="peer h-full object-cover transition-all hover:grayscale-0 [@media(hover:hover)]:grayscale"
+                            >
+                                <source
+                                    srcset="/parallax-landing-page/slider-4.webp"
+                                    type="image/webp"
+                                />
+                                <source
+                                    srcset="/parallax-landing-page/slider-8.jpg"
+                                    type="image/jpeg"
+                                />
+                                <img
+                                    src="/parallax-landing-page/slider-4.jpg"
+                                    alt="Iceland Scene"
+                                    width="370"
+                                    height="463"
+                                />
+                            </picture>
+                            <p
+                                class="pointer-events-none absolute bottom-4 left-4 bg-bkg px-4 py-2 text-lg font-bold tracking-wide transition-opacity peer-hover:opacity-100 [@media(hover:hover)]:opacity-0"
+                            >
+                                Canyon Peaks
+                            </p>
+                        </div>
+                        <div
+                            data-slide
+                            class="relative w-full flex-shrink-0 flex-grow pr-4 xs:w-auto xs:basis-96"
+                        >
+                            <picture
+                                class="peer h-full object-cover transition-all hover:grayscale-0 [@media(hover:hover)]:grayscale"
+                            >
+                                <source
+                                    srcset="/parallax-landing-page/slider-5.webp"
+                                    type="image/webp"
+                                />
+                                <source
+                                    srcset="/parallax-landing-page/slider-8.jpg"
+                                    type="image/jpeg"
+                                />
+                                <img
+                                    src="/parallax-landing-page/slider-5.jpg"
+                                    alt="Iceland Scene"
+                                    width="388"
+                                    height="465"
+                                />
+                            </picture>
+                            <p
+                                class="pointer-events-none absolute bottom-4 left-4 bg-bkg px-4 py-2 text-lg font-bold tracking-wide transition-opacity peer-hover:opacity-100 [@media(hover:hover)]:opacity-0"
+                            >
+                                Mountain Inlet
+                            </p>
+                        </div>
+                        <div
+                            data-slide
+                            class="relative w-full flex-shrink-0 flex-grow pr-4 xs:w-auto xs:basis-96"
+                        >
+                            <picture
+                                class="peer h-full object-cover transition-all hover:grayscale-0 [@media(hover:hover)]:grayscale"
+                            >
+                                <source
+                                    srcset="/parallax-landing-page/slider-6.webp"
+                                    type="image/webp"
+                                />
+                                <source
+                                    srcset="/parallax-landing-page/slider-8.jpg"
+                                    type="image/jpeg"
+                                />
+                                <img
+                                    src="/parallax-landing-page/slider-6.jpg"
+                                    alt="Iceland Scene"
+                                    width="386"
+                                    height="463"
+                                />
+                            </picture>
+                            <p
+                                class="pointer-events-none absolute bottom-4 left-4 bg-bkg px-4 py-2 text-lg font-bold tracking-wide transition-opacity peer-hover:opacity-100 [@media(hover:hover)]:opacity-0"
+                            >
+                                Angel Cliffs
+                            </p>
+                        </div>
+                        <div
+                            data-slide
+                            class="relative w-full flex-shrink-0 flex-grow pr-4 xs:w-auto xs:basis-96"
+                        >
+                            <picture
+                                class="peer h-full object-cover transition-all hover:grayscale-0 [@media(hover:hover)]:grayscale"
+                            >
+                                <source
+                                    srcset="/parallax-landing-page/slider-7.webp"
+                                    type="image/webp"
+                                />
+                                <source
+                                    srcset="/parallax-landing-page/slider-8.jpg"
+                                    type="image/jpeg"
+                                />
+                                <img
+                                    src="/parallax-landing-page/slider-7.jpg"
+                                    alt="Iceland Scene"
+                                    width="388"
+                                    height="465"
+                                />
+                            </picture>
+                            <p
+                                class="pointer-events-none absolute bottom-4 left-4 bg-bkg px-4 py-2 text-lg font-bold tracking-wide transition-opacity peer-hover:opacity-100 [@media(hover:hover)]:opacity-0"
+                            >
+                                Aurora Sound
+                            </p>
+                        </div>
+                        <div
+                            data-slide
+                            class="relative w-full flex-shrink-0 flex-grow xs:w-auto xs:basis-96"
+                        >
+                            <picture
+                                class="peer h-full object-cover transition-all hover:grayscale-0 [@media(hover:hover)]:grayscale"
+                            >
+                                <source
+                                    srcset="/parallax-landing-page/slider-8.webp"
+                                    type="image/webp"
+                                />
+                                <source
+                                    srcset="/parallax-landing-page/slider-8.jpg"
+                                    type="image/jpeg"
+                                />
+                                <img
+                                    src="/parallax-landing-page/slider-8.jpg"
+                                    alt="Iceland Scene"
+                                    width="387"
+                                    height="465"
+                                />
+                            </picture>
+                            <p
+                                class="pointer-events-none absolute bottom-4 left-4 bg-bkg px-4 py-2 text-lg font-bold tracking-wide transition-opacity peer-hover:opacity-100 [@media(hover:hover)]:opacity-0"
+                            >
+                                Icy Meadows
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <section
+                    aria-labelledby="map"
+                    class="container flex flex-wrap items-center justify-between space-y-12 md:space-x-16 md:space-y-0"
+                >
+                    <img
+                        src="/parallax-landing-page/map.png"
+                        alt="Map"
+                        width="400"
+                        height="164"
+                        class="grow fade-up md:flex-1"
+                        loading="lazy"
+                    />
+                    <div
+                        class="grid grow gap-4 text-center fade-up md:flex-1 md:text-left"
+                    >
+                        <div class="relative">
+                            <div
+                                class="absolute -left-4 hidden h-full w-8 bg-accent/10 md:block"
+                            ></div>
+                            <small class="uppercase tracking-widest text-accent"
+                                >a globe of possibilities</small
+                            >
+                            <h2
+                                id="map"
+                                class="text-3xl font-bold tracking-wide"
+                            >
+                                Happy Travelers <br />
+                                the World Over
+                            </h2>
+                        </div>
+                        <p class="max-w-2xl text-muted drop-shadow-text-sm">
+                            Don’t take our word for it! Thousands of adventurous
+                            travelers have enjoyed more than 250 exotic
+                            locations all over the globe!
+                        </p>
+                    </div>
+                </section>
+                <section
+                    aria-labelledby="cta"
+                    class="container grid max-w-prose gap-4 text-center fade-up"
+                >
+                    <div>
+                        <small class="uppercase tracking-widest text-accent"
+                            >it's time to explore</small
+                        >
+                        <h2 id="cta" class="text-3xl font-bold tracking-wide">
+                            Get Hidden Locations
+                        </h2>
+                    </div>
+                    <p class="mx-auto max-w-2xl text-muted drop-shadow-text-sm">
+                        Don’t take our word for it! Thousands of adventurous
+                        travelers have enjoyed more than 250 exotic locations
+                        all over the globe!
+                    </p>
+                    <form
+                        id="contact-form"
+                        class="mx-auto flex max-w-md items-center justify-between rounded-full border-4 border-accent p-1"
+                    >
+                        <input
+                            id="email"
+                            type="email"
+                            required
+                            placeholder="Email Address"
+                            class="mx-4 w-full flex-1 rounded-none border-b-2 border-transparent bg-transparent p-2 text-sm caret-accent placeholder:text-white focus:border-accent focus:outline-none focus:placeholder:text-muted"
+                        />
+                        <label for="email" class="sr-only"
+                            >Enter your email address</label
+                        >
+                        <button
+                            id="contact-btn"
+                            class="flex shrink-0 items-center space-x-2 rounded-full border border-bkg bg-accent py-3 px-4 text-sm font-medium text-bkg ring-accent ring-offset-2 ring-offset-bkg hover:bg-accent/90 focus:outline-none focus-visible:ring-4 sm:px-8"
+                        >
+                            <span class="uppercase tracking-wide">Sign Up</span>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="pointer-events-none"
+                                width="24"
+                                height="24"
+                                fill="currentColor"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M210.3,35.9,23.9,88.4a8,8,0,0,0-1.2,15l85.6,40.5a7.8,7.8,0,0,1,3.8,3.8l40.5,85.6a8,8,0,0,0,15-1.2L220.1,45.7A7.9,7.9,0,0,0,210.3,35.9Z"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="24"
+                                ></path>
+                                <line
+                                    x1="110.9"
+                                    y1="145.1"
+                                    x2="156.1"
+                                    y2="99.9"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="24"
+                                ></line>
+                            </svg>
+                        </button>
+                    </form>
+                </section>
+            </main>
+            <footer
+                class="mt-16 gap-12 border-t border-accent py-6 sm:mt-24 sm:py-8 md:py-12 lg:mt-40"
+            >
+                <div
+                    class="container flex flex-wrap items-center md:items-start md:justify-between"
+                >
+                    <div
+                        class="grid grow basis-full justify-items-center gap-2 md:basis-1/4 md:justify-items-start"
+                    >
+                        <svg
+                            class="w-32 sm:w-48 lg:w-56"
+                            width="280"
+                            viewBox="0 0 357 86"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M18.555 21.228c-3.033.534-4.35 4.151-2.37 6.51l21.78 25.957c1.98 2.359 5.77 1.69 6.823-1.203l11.59-31.84c1.053-2.894-1.421-5.843-4.454-5.308l-33.37 5.884ZM84.795 63.81c3.032-.534 4.349-4.151 2.37-6.51l-21.78-25.957c-1.98-2.359-5.77-1.69-6.824 1.203L46.972 64.387c-1.053 2.894 1.421 5.842 4.453 5.308l33.37-5.884ZM127.81 64.52V22.76h9.42v41.76h-9.42Zm-13.26-34.14v-8.22h35.94v8.22h-35.94Zm34.559 34.14V35.36h9.18v29.16h-9.18Zm9.18-16.02-3.84-3c.76-3.4 2.04-6.04 3.84-7.92 1.8-1.88 4.3-2.82 7.5-2.82 1.4 0 2.62.22 3.66.66 1.08.4 2.02 1.04 2.82 1.92l-5.46 6.9c-.4-.44-.9-.78-1.5-1.02s-1.28-.36-2.04-.36c-1.52 0-2.74.48-3.66 1.44-.88.92-1.32 2.32-1.32 4.2Zm27.785 16.62c-2.68 0-5.08-.66-7.2-1.98-2.08-1.32-3.74-3.12-4.98-5.4-1.2-2.28-1.8-4.88-1.8-7.8s.6-5.52 1.8-7.8c1.24-2.28 2.9-4.08 4.98-5.4 2.12-1.32 4.52-1.98 7.2-1.98 1.96 0 3.72.38 5.28 1.14 1.6.76 2.9 1.82 3.9 3.18 1 1.32 1.56 2.84 1.68 4.56v12.6c-.12 1.72-.68 3.26-1.68 4.62-.96 1.32-2.24 2.36-3.84 3.12-1.6.76-3.38 1.14-5.34 1.14Zm1.86-8.28c1.96 0 3.54-.64 4.74-1.92 1.2-1.32 1.8-2.98 1.8-4.98 0-1.36-.28-2.56-.84-3.6a5.51 5.51 0 0 0-2.28-2.4c-.96-.6-2.08-.9-3.36-.9-1.28 0-2.42.3-3.42.9-.96.56-1.74 1.36-2.34 2.4-.56 1.04-.84 2.24-.84 3.6 0 1.32.28 2.5.84 3.54a6.293 6.293 0 0 0 2.34 2.46c1 .6 2.12.9 3.36.9Zm6.18 7.68v-7.86l1.38-7.08-1.38-7.08v-7.14h9v29.16h-9Zm24.644 0-12.36-29.16h9.9l8.4 24.3h-4.32l8.4-24.3h9.72l-12.36 29.1-7.38.06Zm36.626.66c-3.16 0-5.98-.64-8.46-1.92-2.44-1.32-4.36-3.14-5.76-5.46-1.4-2.32-2.1-4.94-2.1-7.86s.68-5.52 2.04-7.8c1.4-2.32 3.28-4.14 5.64-5.46 2.36-1.32 5.02-1.98 7.98-1.98 2.88 0 5.42.62 7.62 1.86 2.2 1.24 3.92 2.96 5.16 5.16 1.28 2.2 1.92 4.72 1.92 7.56 0 .52-.04 1.08-.12 1.68-.04.56-.14 1.22-.3 1.98l-25.14.06v-6.3l21.24-.06-3.96 2.64c-.04-1.68-.3-3.06-.78-4.14-.48-1.12-1.2-1.96-2.16-2.52-.92-.6-2.06-.9-3.42-.9-1.44 0-2.7.34-3.78 1.02-1.04.64-1.86 1.56-2.46 2.76-.56 1.2-.84 2.66-.84 4.38 0 1.72.3 3.2.9 4.44.64 1.2 1.52 2.14 2.64 2.82 1.16.64 2.52.96 4.08.96 1.44 0 2.74-.24 3.9-.72a8.893 8.893 0 0 0 3.06-2.28l5.04 5.04a13.606 13.606 0 0 1-5.22 3.78c-2.04.84-4.28 1.26-6.72 1.26Zm18.471-.66V35.36h9.18v29.16h-9.18Zm9.18-16.02-3.84-3c.76-3.4 2.04-6.04 3.84-7.92 1.8-1.88 4.3-2.82 7.5-2.82 1.4 0 2.62.22 3.66.66 1.08.4 2.02 1.04 2.82 1.92l-5.46 6.9c-.4-.44-.9-.78-1.5-1.02s-1.28-.36-2.04-.36c-1.52 0-2.74.48-3.66 1.44-.88.92-1.32 2.32-1.32 4.2Zm26.401 16.74c-1.72 0-3.42-.22-5.1-.66-1.64-.44-3.18-1.06-4.62-1.86-1.4-.84-2.6-1.8-3.6-2.88l5.22-5.28c.96 1.04 2.1 1.86 3.42 2.46 1.32.56 2.76.84 4.32.84 1.08 0 1.9-.16 2.46-.48.6-.32.9-.76.9-1.32 0-.72-.36-1.26-1.08-1.62-.68-.4-1.56-.74-2.64-1.02-1.08-.32-2.22-.66-3.42-1.02-1.2-.36-2.34-.86-3.42-1.5s-1.96-1.52-2.64-2.64c-.68-1.16-1.02-2.62-1.02-4.38 0-1.88.48-3.5 1.44-4.86.96-1.4 2.32-2.5 4.08-3.3 1.76-.8 3.82-1.2 6.18-1.2 2.48 0 4.76.44 6.84 1.32 2.12.84 3.84 2.1 5.16 3.78l-5.22 5.28c-.92-1.08-1.96-1.84-3.12-2.28-1.12-.44-2.22-.66-3.3-.66-1.04 0-1.82.16-2.34.48-.52.28-.78.7-.78 1.26 0 .6.34 1.08 1.02 1.44.68.36 1.56.68 2.64.96 1.08.28 2.22.62 3.42 1.02 1.2.4 2.34.94 3.42 1.62 1.08.68 1.96 1.6 2.64 2.76.68 1.12 1.02 2.6 1.02 4.44 0 2.84-1.08 5.1-3.24 6.78-2.12 1.68-5 2.52-8.64 2.52Zm31.261-.06c-3.16 0-5.98-.64-8.46-1.92-2.44-1.32-4.36-3.14-5.76-5.46-1.4-2.32-2.1-4.94-2.1-7.86s.68-5.52 2.04-7.8c1.4-2.32 3.28-4.14 5.64-5.46 2.36-1.32 5.02-1.98 7.98-1.98 2.88 0 5.42.62 7.62 1.86 2.2 1.24 3.92 2.96 5.16 5.16 1.28 2.2 1.92 4.72 1.92 7.56 0 .52-.04 1.08-.12 1.68-.04.56-.14 1.22-.3 1.98l-25.14.06v-6.3l21.24-.06-3.96 2.64c-.04-1.68-.3-3.06-.78-4.14-.48-1.12-1.2-1.96-2.16-2.52-.92-.6-2.06-.9-3.42-.9-1.44 0-2.7.34-3.78 1.02-1.04.64-1.86 1.56-2.46 2.76-.56 1.2-.84 2.66-.84 4.38 0 1.72.3 3.2.9 4.44.64 1.2 1.52 2.14 2.64 2.82 1.16.64 2.52.96 4.08.96 1.44 0 2.74-.24 3.9-.72a8.893 8.893 0 0 0 3.06-2.28l5.04 5.04a13.606 13.606 0 0 1-5.22 3.78c-2.04.84-4.28 1.26-6.72 1.26Z"
+                                fill="#fff"
+                            />
+                        </svg>
+                        <p
+                            class="text-center text-sm text-muted md:text-left"
+                        ></p>
+                    </div>
+                    <nav
+                        aria-label="Secondary navigation"
+                        class="mt-2 flex grow basis-full flex-col items-center justify-between gap-6 text-center text-sm sm:flex-row sm:items-start sm:text-left md:basis-1/2 md:justify-around"
+                    >
+                        <div class="grid gap-3">
+                            <p
+                                class="px-2 font-bold tracking-wide underline decoration-accent decoration-4 underline-offset-2"
+                            >
+                                About
+                            </p>
+                            <ul aria-label="About Traverse">
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="rounded-full px-2 ring-accent ring-offset-2 ring-offset-bkg transition-colors hover:text-accent focus:outline-none focus-visible:ring-4"
+                                    >
+                                        About us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="rounded-full px-2 ring-accent ring-offset-2 ring-offset-bkg transition-colors hover:text-accent focus:outline-none focus-visible:ring-4"
+                                    >
+                                        Press
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="rounded-full px-2 ring-accent ring-offset-2 ring-offset-bkg transition-colors hover:text-accent focus:outline-none focus-visible:ring-4"
+                                    >
+                                        News
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid gap-3">
+                            <p
+                                class="px-2 font-bold tracking-wide underline decoration-accent decoration-4 underline-offset-2"
+                            >
+                                Locations
+                            </p>
+                            <ul aria-label="About Traverse">
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="rounded-full px-2 ring-accent ring-offset-2 ring-offset-bkg transition-colors hover:text-accent focus:outline-none focus-visible:ring-4"
+                                    >
+                                        Africa
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="rounded-full px-2 ring-accent ring-offset-2 ring-offset-bkg transition-colors hover:text-accent focus:outline-none focus-visible:ring-4"
+                                    >
+                                        Asia
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="rounded-full px-2 ring-accent ring-offset-2 ring-offset-bkg transition-colors hover:text-accent focus:outline-none focus-visible:ring-4"
+                                    >
+                                        Australia
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="rounded-full px-2 ring-accent ring-offset-2 ring-offset-bkg transition-colors hover:text-accent focus:outline-none focus-visible:ring-4"
+                                    >
+                                        Europe
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="rounded-full px-2 ring-accent ring-offset-2 ring-offset-bkg transition-colors hover:text-accent focus:outline-none focus-visible:ring-4"
+                                    >
+                                        North America
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="rounded-full px-2 ring-accent ring-offset-2 ring-offset-bkg transition-colors hover:text-accent focus:outline-none focus-visible:ring-4"
+                                    >
+                                        South America
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid gap-3">
+                            <p
+                                class="px-2 font-bold tracking-wide underline decoration-accent decoration-4 underline-offset-2"
+                            >
+                                Contact us
+                            </p>
+                            <ul aria-label="About Traverse">
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="rounded-full px-2 ring-accent ring-offset-2 ring-offset-bkg transition-colors hover:text-accent focus:outline-none focus-visible:ring-4"
+                                    >
+                                        Email
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="rounded-full px-2 ring-accent ring-offset-2 ring-offset-bkg transition-colors hover:text-accent focus:outline-none focus-visible:ring-4"
+                                    >
+                                        Instagram
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="rounded-full px-2 ring-accent ring-offset-2 ring-offset-bkg transition-colors hover:text-accent focus:outline-none focus-visible:ring-4"
+                                    >
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="rounded-full px-2 ring-accent ring-offset-2 ring-offset-bkg transition-colors hover:text-accent focus:outline-none focus-visible:ring-4"
+                                    >
+                                        Twitter
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </footer>
+        </div>
+        
+    </body>
+</html>
