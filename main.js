@@ -96,3 +96,35 @@ async function handleFormSubmit(e) {
 }
 
 contactForm.addEventListener('submit', handleFormSubmit);
+
+// FADE UP OBSERVER
+
+function fadeUpObserverCallback(entries) {
+    entries.forEach((entry) => {
+        const element = entry.target;
+        if (entry.isIntersecting) {
+            element.classList.add('faded');
+            fadeUpObserver.unobserve(element);
+            element.addEventListener(
+                'transitionend',
+                () => {
+                    element.classList.remove('fade-up', 'faded');
+                },
+                { once: true }
+            );
+        }
+    });
+}
+
+const fadeUpObserverOptions = {
+    threshold: 0.6,
+};
+
+const fadeUpObserver = new IntersectionObserver(
+    fadeUpObserverCallback,
+    fadeUpObserverOptions
+);
+
+document.querySelectorAll('.fade-up').forEach((element) => {
+    fadeUpObserver.observe(element);
+});
