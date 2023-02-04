@@ -14,9 +14,11 @@
         />
     </head>
     <body
-        class="bg-bkg text-base text-white selection:bg-accent selection:text-bkg"
+        class="overflow-hidden bg-bkg text-base text-white selection:bg-accent selection:text-bkg"
     >
-        <div id="parallax">
+        <div
+            class="perspective relative h-screen overflow-y-auto overflow-x-hidden scroll-smooth pb-12 sm:pb-0"
+        >
             <nav
                 class="absolute top-0 z-50 grid w-full place-items-center drop-shadow-text-sm"
                 aria-label="Primary Navigation"
@@ -41,13 +43,13 @@
                 </a>
             </nav>
             <header
-                class="relative flex min-h-screen flex-col items-center justify-evenly"
+                class="preserve-3d relative flex min-h-screen flex-col items-center justify-evenly"
             >
                 <div
                     class="absolute inset-0 bottom-3/4 bg-gradient-to-b from-accent to-transparent"
                 ></div>
                 <div
-                    class="absolute inset-0 -bottom-32 top-1/3 bg-gradient-to-t from-bkg/80 to-transparent"
+                    class="distance-1 absolute inset-0 -bottom-32 top-1/3 bg-gradient-to-t from-bkg/80 to-transparent"
                 ></div>
                 <img
                     sizes="(min-width: 500px) 480w, 650w, 800w, 1300w"
@@ -60,17 +62,17 @@
                     src="/hero.jpg"
                     alt="Background Hero Image"
                     aria-hidden="true"
-                    class="absolute -z-20 h-full w-full object-cover object-center"
+                    class="distance-1 absolute -z-20 h-full w-full object-cover object-center"
                 />
                 <h1
-                    class="py-12 text-center text-5xl font-bold tracking-wide text-white drop-shadow-text-sm lg:drop-shadow-text-lg"
+                    class="distance-2 py-12 text-center text-5xl font-bold tracking-wide text-white drop-shadow-text-sm lg:drop-shadow-text-lg"
                 >
                     Unique Trips for <br />Adventurous <br />
                     Travelers
                 </h1>
                 <a
                     href="#contact-form"
-                    class="flex items-center space-x-2 rounded-full border border-bkg bg-accent py-3 px-8 font-medium text-bkg ring-accent ring-offset-2 ring-offset-bkg drop-shadow-text-lg transition-shadow hover:bg-accent/90 hover:drop-shadow-none focus:outline-none focus-visible:ring-4"
+                    class="distance-2 flex items-center space-x-2 rounded-full border border-bkg bg-accent py-3 px-8 font-medium text-bkg ring-accent ring-offset-2 ring-offset-bkg drop-shadow-text-lg transition-shadow hover:bg-accent/90 hover:drop-shadow-none focus:outline-none focus-visible:ring-4"
                 >
                     <span class="uppercase tracking-wide">Book a Trip</span>
                     <svg
